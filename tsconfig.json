@@ -2,17 +2,10 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-    "lib": [
-      "ES2017",
-      "DOM"
-    ],
+    "lib": ["ES2017", "DOM"],
     "target": "ES2017",
     "jsx": "react-native",
-    "types": [
-      "react",
-      "react-native",
-      "node"
-    ],
+    "types": ["react", "react-native", "node"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -24,13 +17,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
+  "exclude": ["node_modules"]
 }
